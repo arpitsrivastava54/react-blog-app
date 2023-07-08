@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 require("./connection");
 const cors = require ("cors");
-const User = require("./models/users");
-const Blog = require ("./models/blogs");
+const User = require("./models/users.js");
+const Blog = require ("./models/blogs.js");
 
 app.use(cors());
 app.use(express.json());
