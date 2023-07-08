@@ -5,7 +5,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "git": "^0.1.5",
-    "mongoose": "^7.3.1"
+    "mongoose": "^14.20.1"
   },
   "name": "blog-server",
   "version": "1.0.0",
