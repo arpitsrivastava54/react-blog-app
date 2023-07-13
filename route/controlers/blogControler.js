@@ -115,6 +115,7 @@ exports.deleteBlog = async (req, res) => {
         return ele != blogid;
       });
       user.blogs = newBlogArray;
+      await user.save();
       res.status(200).json({ message: "delete successfully" }); // No content
     }
   } catch (error) {
